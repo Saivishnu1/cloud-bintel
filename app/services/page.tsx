@@ -8,7 +8,7 @@ export default function ServicesPage() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="bgg-gradient-to-r from-primary to-secondary py-20 text-white">
+      <section className="bg-gradient-to-r from-primary to-secondary py-20 text-white">
         <div className="container">
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="mb-4 text-4xl font-bold md:text-5xl">Our Services</h1>
