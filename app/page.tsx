@@ -20,17 +20,17 @@ export default function Home() {
                 decisions and drive growth.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Button asChild size="lg" className="bg-white text-primary hover:bg-gray-100">
+                <Button asChild size="lg" variant="outline" className=" bg-white border-white text-primary hover:bg-white/10 hover:text-white">
                   <Link href="/services">Explore Services</Link>
                 </Button>
-                <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+                <Button asChild size="lg" variant="outline" className="border-white text-primary hover:bg-white/10 hover:text-white">
                   <Link href="/consultations">Book a Consultation</Link>
                 </Button>
               </div>
             </div>
             <div className="relative h-[300px] md:h-[400px] lg:h-[500px]">
               <Image
-                src="/placeholder.svg?height=500&width=500"
+                src="/bintel-bot.jpg?height=500&width=500"
                 alt="Data visualization"
                 fill
                 className="object-contain"
@@ -39,7 +39,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="absolute inset-0 bg-[url('/placeholder.svg?height=100&width=100')] bg-repeat opacity-10"></div>
+        <div className="absolute inset-0 bg-[url('/bintel-bot.jpg?height=100&width=100')] bg-repeat opacity-10"></div>
       </section>
 
       {/* Services Overview */}
